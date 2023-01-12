@@ -9,6 +9,9 @@
     <Description>在Windows下使用时，只有在管理员方式下运行程序才会监听所有地址的访问，否则只会监听本地访问。</Description>
     <IncludeSymbols>True</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageProjectUrl>https://github.com/mghcool/NLog.Targets.WebSocket</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mghcool/NLog.Targets.WebSocket</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -20,7 +23,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NLog" Version="5.1.1" />
+    <PackageReference Include="NLog" Version="5.0.0" />
   </ItemGroup>
 
 </Project>
